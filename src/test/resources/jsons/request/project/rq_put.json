@@ -1,0 +1,18 @@
+{
+  "url": "https://api.clockify.me/api/v1",
+  "headers": {
+    "X-Api-Key": "NDRmZWUwYzEtOTZhMS00NDk5LWJkZWItY2FiNmY1MjQ3NGNh",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "name": "Academy",
+    "isPublic": "false",
+    "hourlyRate": {
+      "amount": 0
+    },
+    "color": "#000000",
+    "billable": "true",
+    "archived": "true"
+  },
+  "endpoint": "/workspaces/614b795a8fc8f836af59328a/projects/62840c55c275545159e60909"
+}

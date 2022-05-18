@@ -1,14 +1,14 @@
 package api.model.Project;
 
 public class HourlyRate {
-    private float amount;
+    private Integer amount;
     private String currency;
 
-    public float getAmount() {
+    public Integer getAmount() {
         return amount;
     }
 
-    public void setAmount(float amount) {
+    public void setAmount(Integer amount) {
         this.amount = amount;
     }
 
