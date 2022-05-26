@@ -3,6 +3,6 @@
   "headers": {
     "X-Api-Key": "ZWFhNDM1NzgtOTAxYy00NWE2LThjZDgtMmEzZjBiNmUxYzk4",
     "Content-Type": "application/json"
-  },"body": {},
-  "endpoint": "/workspaces/{{id}}/projects"
+  },
+  "endpoint": "/workspaces/628ceff638bc332cb91e6582/project"
 }

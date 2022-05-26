@@ -1,0 +1,20 @@
+{
+  "url": "https://api.clockify.me/api/v1",
+  "headers": {
+    "X-Api-Key": "ZWFhNDM1NzgtOTAxYy00NWE2LThjZDgtMmEzZjBiNmUxYzk4",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "name": "{{nameUpdate}}",
+    "clientId": "",
+    "isPublic": "false",
+    "hourlyRate": {
+      "amount": 0
+    },
+    "color": "#f44336",
+    "note": "Crowdar Academy TP4",
+    "billable": "true",
+    "archived": "true"
+  },
+  "endpoint": "/workspaces/628ceff638bc332cb91e6582/projects/{{id}}"
+}
