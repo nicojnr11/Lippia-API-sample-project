@@ -43,6 +43,21 @@ public enum EntityConfiguration {
     UPDATEPROJECTBYID {
         @Override
         public Class<?> getEntityService() { return UpdateProjectByIdService.class; }
+    },
+    GET_TIME_ENTRY {
+        @Override
+        public Class<?> getEntityService() { return GetTimeEntryService.class; }
+    },
+    ADD_TIME_ENTRY {
+        @Override
+        public Class<?> getEntityService() { return AddTimeEntryService.class; }
+    },
+    UPDATE_TIME_ENTRY {
+        @Override
+        public Class<?> getEntityService() { return UpdateTimeEntryService.class; }
+    },DELETE_TIME_ENTRY {
+        @Override
+        public Class<?> getEntityService() { return DeleteTimeEntryService.class; }
     };
 
     public abstract Class<?> getEntityService();

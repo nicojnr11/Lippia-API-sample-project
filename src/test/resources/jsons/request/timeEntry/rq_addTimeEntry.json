@@ -1,0 +1,25 @@
+{
+  "url": "https://api.clockify.me/api/v1",
+  "headers": {
+    "X-Api-Key": "ZWFhNDM1NzgtOTAxYy00NWE2LThjZDgtMmEzZjBiNmUxYzk4",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "start": "2022-06-12T13:48:14.000Z",
+    "billable": "true",
+    "description": "{{descriptionAdd}}",
+    "projectId": "{{projectId}}",
+    "taskId": "",
+    "end": "2022-06-12T13:50:14.000Z",
+    "tagIds": [
+      ""
+    ],
+    "customFields": [
+      {
+        "customFieldId": "",
+        "value": "San Francisco"
+      }
+    ]
+  },
+  "endpoint": "/workspaces/{{workspaceId}}/time-entries"
+}
