@@ -10,7 +10,7 @@ public class GetTimeEntryValidator {
         GetTimeEntryResponse[] response = (GetTimeEntryResponse[]) APIManager.getLastResponse().getResponse();
         boolean flagDescription = false;
         for (GetTimeEntryResponse descrip:response){
-            if (descrip.getDescription().equals(description)) flagDescription = true;
+            if (descrip.getDescription().contains(description)) flagDescription = true;
         }
         Assert.assertTrue(flagDescription,"La descripcion "+description+" no se encuentra en la lista");
     }
