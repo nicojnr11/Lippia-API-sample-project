@@ -1,6 +1,6 @@
 package ar.steps;
 
-import api.model.AddTimeEntryResponse;
+import api.model.TimeEntry.AddTimeEntryResponse;
 import ar.validator.UpdateTimeEntryValidator;
 import com.crowdar.api.rest.APIManager;
 import io.cucumber.java.en.And;

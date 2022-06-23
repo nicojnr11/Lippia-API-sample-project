@@ -1,11 +1,11 @@
-package api.model;
+package api.model.TimeEntry;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class UpdateTimeEntryResponse{
+public class AddTimeEntryResponse {
 
     @SerializedName("billable")
     @Expose

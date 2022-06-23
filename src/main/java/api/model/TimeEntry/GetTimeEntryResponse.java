@@ -1,5 +1,6 @@
-package api.model;
+package api.model.TimeEntry;
 
+import api.model.TimeEntry.TimeInterval;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

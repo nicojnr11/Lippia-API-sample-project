@@ -1,6 +1,6 @@
 package services;
 
-import api.model.GetTimeEntryResponse;
+import api.model.TimeEntry.GetTimeEntryResponse;
 import com.crowdar.api.rest.MethodsService;
 import com.crowdar.api.rest.Response;
 

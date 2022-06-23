@@ -1,7 +1,6 @@
 package ar.validator;
 
-import api.model.AddTimeEntryResponse;
-import api.model.UpdateTimeEntryResponse;
+import api.model.TimeEntry.UpdateTimeEntryResponse;
 import com.crowdar.api.rest.APIManager;
 import org.testng.Assert;
 

@@ -1,9 +1,8 @@
 package services;
 
-import api.model.UpdateTimeEntryResponse;
+import api.model.TimeEntry.UpdateTimeEntryResponse;
 import com.crowdar.api.rest.MethodsService;
 import com.crowdar.api.rest.Response;
-import com.crowdar.core.PropertyManager;
 
 
 import java.util.HashMap;
